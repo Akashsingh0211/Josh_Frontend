@@ -29,11 +29,13 @@ var btn = document.getElementById("myBtn");
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   mymodal.style.display = "block";
+  document.body.classList.add("modal-open");
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   mymodal.style.display = "none";
+  document.body.classList.remove("modal-open");
 }
 
 // Request a Dish Modal
@@ -46,11 +48,13 @@ var btn2 = document.getElementById("dish");
 // When the user clicks on the button, open the modal
 btn2.onclick = function() {
   mymodal2.style.display = "block";
+  document.body.classList.add("modal-open");
 }
 
 // When the user clicks on <span> (x), close the modal
 ended.onclick = function() {
   mymodal2.style.display = "none";
+  document.body.classList.remove("modal-open");
 }
 const video = document.getElementsById("sample_video");
 let i;

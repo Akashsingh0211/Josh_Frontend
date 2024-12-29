@@ -376,6 +376,9 @@ nav{
 	font: 1.75em/0 Apple Color Emoji;
 	vertical-align: -0.15em;
 } */
+ body.modal-open {
+    overflow: hidden;
+ }
 .videoHeading{
     padding-top:80px;
 }
